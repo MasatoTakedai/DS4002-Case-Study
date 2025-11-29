@@ -1,4 +1,4 @@
-# BME-Time-Series-Project
+# DS4002 Case Study
 # Predicting Charlottesville Parking Ticket Appeal Success Using Time Series Analysis   
 
 ## Group  
@@ -22,7 +22,6 @@ DS 4002 – 001 – 1pm – October 2025
   - `pandas` – data manipulation  
   - `numpy` – numerical processing  
   - `matplotlib`, `seaborn` – visualizations  
-  - `vaderSentiment` – lexicon-based sentiment analysis  
   - `scikit-learn` (sklearn) – building and evaulating machine learning models
   - `xgboost` - library for our SVM model 
 - **Platform:** Code developed and tested on Windows and MacOS  
@@ -39,19 +38,14 @@ BME-Time-Series-Project
 │   ├── METADATA.md
 │   ├── Figure 1.png
 │   └── Figure 2.png
-├── LICENSE
-├── output
-│   ├── results_logistic.txt
-│   ├── results_random_forest.txt
-│   ├── results_xgboost.txt
-│   ├── roc_logistic.png
-│   ├── roc_random_forest.png
-│   └── roc_xgboost.png
 ├── README.md
-├── requirements.txt
-└── scripts
-    ├── ParkingTicketsCleaning.ipynb
-    └── train.py
+├── scripts
+│    ├── ParkingTicketsCleaning.ipynb
+│    └── train.py
+├── Hook Document.pdf
+├── Rubric.pdf
+├── README.md
+└── supplemental documents
 ```
 
 ---
@@ -78,6 +72,4 @@ BME-Time-Series-Project
         3. ROC-AUC Score
         4. Feature Importance
     2) ROC curve
-    
-1) https://datauvalibrary.opendata.arcgis.com/datasets/charlottesville::parking-tickets/about
 

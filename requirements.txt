@@ -1,6 +1,0 @@
-argparse
-pandas
-matplotlib
-numpy
-scikit-learn
-xgboost
